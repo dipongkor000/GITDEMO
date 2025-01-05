@@ -1,11 +1,23 @@
-    h1{color: rgb(15, 5, 161);
-    background-color: lightsteelblue;}
+    .head{
+       
+        background-image: url(padma1.jpg);
+        /* background-size: cover; */
+        /* background-size: contain; */
+        height: 400px; width: 870px;
+        /* background-repeat: no-repeat; */
+        
+    }
+
+    h1{color: rgb(23, 30, 95);background-color: lightsteelblue; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
     .raju, li{color: rgb(182, 13, 35);}
     #dip{font-size: large;font-weight: bold;}
     .disa{text-align: center;}
     .dipu, .dipa{background-color: rgb(178, 201, 178);}
     .rana{background-color:rgb(145,209,247); width:500px;}
 
-    /* .hide{display: none;} */
-    
+    .hide{
+        /* display: none; */
+        visibility: hidden;}
+    .shadow{box-shadow: 7px 7px 5px rgb(63, 20, 20);}
+    .raju{border: 2px solid purple;}
     
